@@ -61,7 +61,8 @@ function checkWin() {
     }
     gameWon = true;
     clearInterval(timer);
-    alert("Congratulations! You solved the puzzle in " + count + " moves and " + seconds + " seconds!");
+    alert("Congratulations! You solved the puzzle in " + count + " moves and " + seconds + " seconds! Click 'OK' to shuffle.");
+    shuffle();
 }
 
 function shuffle() {
